@@ -1,0 +1,13 @@
+customer_id,full_name,email,phone,company,city,notes
+C-93810,Oleksandr Kovalenko,o.kovalenko@tatra-logistics.example,+421 905 013 389,Tatra Logistics s.r.o.,Košice,Operations manager. Prefers calls after 14:00 on (0905) 013-389. Born 07.09.1966. Asked about the upgrade to version 10.2.3.4.
+C-24592,Oleksandr Bondarenko,oleksandr.bondarenko@karpaty-food.example,+380505116155,Karpaty Food LLC,Lviv,Not the same person as Oleksandr Kovalenko at Tatra. Ordered 5 seats of LedgerLite (ORD-2026-11873).
+C-13278,Jana Horváthová,horvathova.jana@ucto-horvathova.example,0948407816,Jana Horváthová – Účtovné služby,Košice,"Sole trader. Invoices to Hlavná 12, 040 01 Košice. Pays by transfer from SK32 9901 0000 0084 9593 1034."
+C-46048,Peter Novák,peter.novak@tatra-logistics.example,(0908) 164-752,Tatra Logistics s.r.o.,Košice,Finance contact; wants invoices copied to info@tatra-logistics.example. Colleagues call him Peťo.
+C-42098,Ľubomír Šťastný,l.stastny@martinprecision.example,+421 41 553 4192,Martin Precision s.r.o.,Martin,CEO. Deputy: Michal Varga. Licence key for BX-4410-22 sent on 02.03.2026.
+C-39256,Наталія Шевчук,n.shevchuk@karpaty-food.example,+380 50 276 48 35,ТОВ «Карпати Фуд»,Lviv,Chief accountant. Writes her name as Nataliia in Latin; colleagues use Natalia. Date of birth 27 April 1968 (identity check).
+C-28289,Dmytro Melnyk,dmytro.melnyk@mail.example,067 564 13 95,FOP Dmytro Melnyk,Lviv,Ukrainian sole trader. Last login from 198.51.100.195.
+C-23434,Emily Carter,emily.carter@brightwell.example,+44 7700 900122,Brightwell Components Ltd,Leeds,"UK office, call 07700 900122; one hour behind CET."
+C-98696,Alexander Wright,a.wright@brightwell.example,+44 7700 900691,Brightwell Components Ltd,Leeds,Goes by Alex. Signs the renewals.
+C-81482,Katarína Bieliková,katka.bielikova@mail.example,0944978480,,Bratislava,"Private customer. Dátum narodenia: 18.11.1972. Lives at Štúrova 66/A, 811 02 Bratislava."
+C-21395,Michal Varga,michal.varga@martinprecision.example,0948/809 570,Martin Precision s.r.o.,Martin,Reachable via the Martin Precision reception; prefers e-mail.
+C-87397,Radim Kučera,r.kucera@tatra-logistics.example,00421 905 543 039,Tatra Logistics s.r.o.,Košice,"IT admin, took over the LedgerLite admin role from O. Kovalenko in March."

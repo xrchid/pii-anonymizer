@@ -1,0 +1,22 @@
+From: Peter Novák <peter.novak@tatra-logistics.example>
+To: billing@dunajsoft.example
+Cc: info@tatra-logistics.example, Oleksandr Kovalenko <o.kovalenko@tatra-logistics.example>
+Date: Thu, 12 Mar 2026 13:40:00 +0100
+Subject: FW: Approval for invoice INV-2026-0040
+
+Hello,
+
+forwarding the approval from our operations manager. Please register it under my customer number 46048.
+
+Best regards,
+Ing. Peter Novák
+Finance, Tatra Logistics s.r.o.
+(0908) 164-752
+
+----- Forwarded message -----
+From: Alexander Kovalenko <o.kovalenko@tatra-logistics.example>
+Date: 12.03.2026
+
+Peťo, approved, please forward it to billing. I am travelling, so reach me on my private number 0905013389 until Friday.
+
+– Sasha

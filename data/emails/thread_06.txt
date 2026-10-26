@@ -1,0 +1,11 @@
+From: Radim Kučera <r.kucera@tatra-logistics.example>
+To: Tomáš Kollár <t.kollar@dunajsoft.example>
+Date: Tue, 17 Mar 2026 11:30:00 +0100
+Subject: LedgerLite admin for Tatra Logistics
+
+Hi Tomáš,
+
+I am taking over the LedgerLite admin role from Oleksandr. Please send technical questions to me; my desk phone is +421 905 543 039.
+
+Thanks,
+Radim

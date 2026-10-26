@@ -1,0 +1,274 @@
+{"doc_id": "crm_export.csv:1:customer_id", "start": 0, "end": 7, "text": "C-93810", "type": "CUSTOMER_ID", "entity_id": "P01", "is_pii": true}
+{"doc_id": "crm_export.csv:1:full_name", "start": 0, "end": 19, "text": "Oleksandr Kovalenko", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "crm_export.csv:1:email", "start": 0, "end": 35, "text": "o.kovalenko@tatra-logistics.example", "type": "EMAIL", "entity_id": "P01", "is_pii": true}
+{"doc_id": "crm_export.csv:1:phone", "start": 0, "end": 16, "text": "+421 905 013 389", "type": "PHONE", "entity_id": "P01", "is_pii": true}
+{"doc_id": "crm_export.csv:1:company", "start": 0, "end": 22, "text": "Tatra Logistics s.r.o.", "type": "ORGANIZATION", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "crm_export.csv:1:notes", "start": 49, "end": 63, "text": "(0905) 013-389", "type": "PHONE", "entity_id": "P01", "is_pii": true}
+{"doc_id": "crm_export.csv:1:notes", "start": 70, "end": 80, "text": "07.09.1966", "type": "DATE_OF_BIRTH", "entity_id": "P01", "is_pii": true}
+{"doc_id": "crm_export.csv:2:customer_id", "start": 0, "end": 7, "text": "C-24592", "type": "CUSTOMER_ID", "entity_id": "P02", "is_pii": true}
+{"doc_id": "crm_export.csv:2:full_name", "start": 0, "end": 20, "text": "Oleksandr Bondarenko", "type": "PERSON", "entity_id": "P02", "is_pii": true}
+{"doc_id": "crm_export.csv:2:email", "start": 0, "end": 41, "text": "oleksandr.bondarenko@karpaty-food.example", "type": "EMAIL", "entity_id": "P02", "is_pii": true}
+{"doc_id": "crm_export.csv:2:phone", "start": 0, "end": 13, "text": "+380505116155", "type": "PHONE", "entity_id": "P02", "is_pii": true}
+{"doc_id": "crm_export.csv:2:company", "start": 0, "end": 16, "text": "Karpaty Food LLC", "type": "ORGANIZATION", "entity_id": "ORG3", "is_pii": false}
+{"doc_id": "crm_export.csv:2:notes", "start": 23, "end": 42, "text": "Oleksandr Kovalenko", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "crm_export.csv:3:customer_id", "start": 0, "end": 7, "text": "C-13278", "type": "CUSTOMER_ID", "entity_id": "P03", "is_pii": true}
+{"doc_id": "crm_export.csv:3:full_name", "start": 0, "end": 15, "text": "Jana Horváthová", "type": "PERSON", "entity_id": "P03", "is_pii": true}
+{"doc_id": "crm_export.csv:3:email", "start": 0, "end": 39, "text": "horvathova.jana@ucto-horvathova.example", "type": "EMAIL", "entity_id": "P03", "is_pii": true}
+{"doc_id": "crm_export.csv:3:phone", "start": 0, "end": 10, "text": "0948407816", "type": "PHONE", "entity_id": "P03", "is_pii": true}
+{"doc_id": "crm_export.csv:3:company", "start": 0, "end": 32, "text": "Jana Horváthová – Účtovné služby", "type": "ORGANIZATION", "entity_id": "P03", "is_pii": true}
+{"doc_id": "crm_export.csv:3:notes", "start": 25, "end": 49, "text": "Hlavná 12, 040 01 Košice", "type": "ADDRESS", "entity_id": "P03", "is_pii": true}
+{"doc_id": "crm_export.csv:3:notes", "start": 73, "end": 102, "text": "SK32 9901 0000 0084 9593 1034", "type": "IBAN", "entity_id": "P03", "is_pii": true}
+{"doc_id": "crm_export.csv:4:customer_id", "start": 0, "end": 7, "text": "C-46048", "type": "CUSTOMER_ID", "entity_id": "P04", "is_pii": true}
+{"doc_id": "crm_export.csv:4:full_name", "start": 0, "end": 11, "text": "Peter Novák", "type": "PERSON", "entity_id": "P04", "is_pii": true}
+{"doc_id": "crm_export.csv:4:email", "start": 0, "end": 35, "text": "peter.novak@tatra-logistics.example", "type": "EMAIL", "entity_id": "P04", "is_pii": true}
+{"doc_id": "crm_export.csv:4:phone", "start": 0, "end": 14, "text": "(0908) 164-752", "type": "PHONE", "entity_id": "P04", "is_pii": true}
+{"doc_id": "crm_export.csv:4:company", "start": 0, "end": 22, "text": "Tatra Logistics s.r.o.", "type": "ORGANIZATION", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "crm_export.csv:4:notes", "start": 42, "end": 70, "text": "info@tatra-logistics.example", "type": "EMAIL", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "crm_export.csv:4:notes", "start": 92, "end": 96, "text": "Peťo", "type": "PERSON", "entity_id": "P04", "is_pii": true}
+{"doc_id": "crm_export.csv:5:customer_id", "start": 0, "end": 7, "text": "C-42098", "type": "CUSTOMER_ID", "entity_id": "P05", "is_pii": true}
+{"doc_id": "crm_export.csv:5:full_name", "start": 0, "end": 15, "text": "Ľubomír Šťastný", "type": "PERSON", "entity_id": "P05", "is_pii": true}
+{"doc_id": "crm_export.csv:5:email", "start": 0, "end": 33, "text": "l.stastny@martinprecision.example", "type": "EMAIL", "entity_id": "P05", "is_pii": true}
+{"doc_id": "crm_export.csv:5:phone", "start": 0, "end": 16, "text": "+421 41 553 4192", "type": "PHONE", "entity_id": "P05", "is_pii": true}
+{"doc_id": "crm_export.csv:5:company", "start": 0, "end": 23, "text": "Martin Precision s.r.o.", "type": "ORGANIZATION", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "crm_export.csv:5:notes", "start": 13, "end": 25, "text": "Michal Varga", "type": "PERSON", "entity_id": "P13", "is_pii": true}
+{"doc_id": "crm_export.csv:6:customer_id", "start": 0, "end": 7, "text": "C-39256", "type": "CUSTOMER_ID", "entity_id": "P06", "is_pii": true}
+{"doc_id": "crm_export.csv:6:full_name", "start": 0, "end": 14, "text": "Наталія Шевчук", "type": "PERSON", "entity_id": "P06", "is_pii": true}
+{"doc_id": "crm_export.csv:6:email", "start": 0, "end": 31, "text": "n.shevchuk@karpaty-food.example", "type": "EMAIL", "entity_id": "P06", "is_pii": true}
+{"doc_id": "crm_export.csv:6:phone", "start": 0, "end": 17, "text": "+380 50 276 48 35", "type": "PHONE", "entity_id": "P06", "is_pii": true}
+{"doc_id": "crm_export.csv:6:company", "start": 0, "end": 17, "text": "ТОВ «Карпати Фуд»", "type": "ORGANIZATION", "entity_id": "ORG3", "is_pii": false}
+{"doc_id": "crm_export.csv:6:notes", "start": 37, "end": 45, "text": "Nataliia", "type": "PERSON", "entity_id": "P06", "is_pii": true}
+{"doc_id": "crm_export.csv:6:notes", "start": 71, "end": 78, "text": "Natalia", "type": "PERSON", "entity_id": "P06", "is_pii": true}
+{"doc_id": "crm_export.csv:6:notes", "start": 94, "end": 107, "text": "27 April 1968", "type": "DATE_OF_BIRTH", "entity_id": "P06", "is_pii": true}
+{"doc_id": "crm_export.csv:7:customer_id", "start": 0, "end": 7, "text": "C-28289", "type": "CUSTOMER_ID", "entity_id": "P07", "is_pii": true}
+{"doc_id": "crm_export.csv:7:full_name", "start": 0, "end": 13, "text": "Dmytro Melnyk", "type": "PERSON", "entity_id": "P07", "is_pii": true}
+{"doc_id": "crm_export.csv:7:email", "start": 0, "end": 26, "text": "dmytro.melnyk@mail.example", "type": "EMAIL", "entity_id": "P07", "is_pii": true}
+{"doc_id": "crm_export.csv:7:phone", "start": 0, "end": 13, "text": "067 564 13 95", "type": "PHONE", "entity_id": "P07", "is_pii": true}
+{"doc_id": "crm_export.csv:7:company", "start": 0, "end": 17, "text": "FOP Dmytro Melnyk", "type": "ORGANIZATION", "entity_id": "P07", "is_pii": true}
+{"doc_id": "crm_export.csv:7:notes", "start": 39, "end": 53, "text": "198.51.100.195", "type": "IP_ADDRESS", "entity_id": "P07", "is_pii": true}
+{"doc_id": "crm_export.csv:8:customer_id", "start": 0, "end": 7, "text": "C-23434", "type": "CUSTOMER_ID", "entity_id": "P08", "is_pii": true}
+{"doc_id": "crm_export.csv:8:full_name", "start": 0, "end": 12, "text": "Emily Carter", "type": "PERSON", "entity_id": "P08", "is_pii": true}
+{"doc_id": "crm_export.csv:8:email", "start": 0, "end": 31, "text": "emily.carter@brightwell.example", "type": "EMAIL", "entity_id": "P08", "is_pii": true}
+{"doc_id": "crm_export.csv:8:phone", "start": 0, "end": 15, "text": "+44 7700 900122", "type": "PHONE", "entity_id": "P08", "is_pii": true}
+{"doc_id": "crm_export.csv:8:company", "start": 0, "end": 25, "text": "Brightwell Components Ltd", "type": "ORGANIZATION", "entity_id": "ORG2", "is_pii": false}
+{"doc_id": "crm_export.csv:8:notes", "start": 16, "end": 28, "text": "07700 900122", "type": "PHONE", "entity_id": "P08", "is_pii": true}
+{"doc_id": "crm_export.csv:9:customer_id", "start": 0, "end": 7, "text": "C-98696", "type": "CUSTOMER_ID", "entity_id": "P09", "is_pii": true}
+{"doc_id": "crm_export.csv:9:full_name", "start": 0, "end": 16, "text": "Alexander Wright", "type": "PERSON", "entity_id": "P09", "is_pii": true}
+{"doc_id": "crm_export.csv:9:email", "start": 0, "end": 27, "text": "a.wright@brightwell.example", "type": "EMAIL", "entity_id": "P09", "is_pii": true}
+{"doc_id": "crm_export.csv:9:phone", "start": 0, "end": 15, "text": "+44 7700 900691", "type": "PHONE", "entity_id": "P09", "is_pii": true}
+{"doc_id": "crm_export.csv:9:company", "start": 0, "end": 25, "text": "Brightwell Components Ltd", "type": "ORGANIZATION", "entity_id": "ORG2", "is_pii": false}
+{"doc_id": "crm_export.csv:9:notes", "start": 8, "end": 12, "text": "Alex", "type": "PERSON", "entity_id": "P09", "is_pii": true}
+{"doc_id": "crm_export.csv:10:customer_id", "start": 0, "end": 7, "text": "C-81482", "type": "CUSTOMER_ID", "entity_id": "P10", "is_pii": true}
+{"doc_id": "crm_export.csv:10:full_name", "start": 0, "end": 18, "text": "Katarína Bieliková", "type": "PERSON", "entity_id": "P10", "is_pii": true}
+{"doc_id": "crm_export.csv:10:email", "start": 0, "end": 28, "text": "katka.bielikova@mail.example", "type": "EMAIL", "entity_id": "P10", "is_pii": true}
+{"doc_id": "crm_export.csv:10:phone", "start": 0, "end": 10, "text": "0944978480", "type": "PHONE", "entity_id": "P10", "is_pii": true}
+{"doc_id": "crm_export.csv:10:notes", "start": 35, "end": 45, "text": "18.11.1972", "type": "DATE_OF_BIRTH", "entity_id": "P10", "is_pii": true}
+{"doc_id": "crm_export.csv:10:notes", "start": 56, "end": 87, "text": "Štúrova 66/A, 811 02 Bratislava", "type": "ADDRESS", "entity_id": "P10", "is_pii": true}
+{"doc_id": "crm_export.csv:11:customer_id", "start": 0, "end": 7, "text": "C-21395", "type": "CUSTOMER_ID", "entity_id": "P13", "is_pii": true}
+{"doc_id": "crm_export.csv:11:full_name", "start": 0, "end": 12, "text": "Michal Varga", "type": "PERSON", "entity_id": "P13", "is_pii": true}
+{"doc_id": "crm_export.csv:11:email", "start": 0, "end": 36, "text": "michal.varga@martinprecision.example", "type": "EMAIL", "entity_id": "P13", "is_pii": true}
+{"doc_id": "crm_export.csv:11:phone", "start": 0, "end": 12, "text": "0948/809 570", "type": "PHONE", "entity_id": "P13", "is_pii": true}
+{"doc_id": "crm_export.csv:11:company", "start": 0, "end": 23, "text": "Martin Precision s.r.o.", "type": "ORGANIZATION", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "crm_export.csv:11:notes", "start": 18, "end": 34, "text": "Martin Precision", "type": "ORGANIZATION", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "crm_export.csv:12:customer_id", "start": 0, "end": 7, "text": "C-87397", "type": "CUSTOMER_ID", "entity_id": "P14", "is_pii": true}
+{"doc_id": "crm_export.csv:12:full_name", "start": 0, "end": 12, "text": "Radim Kučera", "type": "PERSON", "entity_id": "P14", "is_pii": true}
+{"doc_id": "crm_export.csv:12:email", "start": 0, "end": 32, "text": "r.kucera@tatra-logistics.example", "type": "EMAIL", "entity_id": "P14", "is_pii": true}
+{"doc_id": "crm_export.csv:12:phone", "start": 0, "end": 17, "text": "00421 905 543 039", "type": "PHONE", "entity_id": "P14", "is_pii": true}
+{"doc_id": "crm_export.csv:12:company", "start": 0, "end": 22, "text": "Tatra Logistics s.r.o.", "type": "ORGANIZATION", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "crm_export.csv:12:notes", "start": 51, "end": 63, "text": "O. Kovalenko", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "tickets.jsonl:1:body", "start": 6, "end": 11, "text": "Lucia", "type": "PERSON", "entity_id": "P11", "is_pii": true}
+{"doc_id": "tickets.jsonl:1:body", "start": 123, "end": 135, "text": "203.0.113.73", "type": "IP_ADDRESS", "entity_id": "P01", "is_pii": true}
+{"doc_id": "tickets.jsonl:1:body", "start": 161, "end": 168, "text": "C-93810", "type": "CUSTOMER_ID", "entity_id": "P01", "is_pii": true}
+{"doc_id": "tickets.jsonl:1:body", "start": 185, "end": 204, "text": "Oleksandr Kovalenko", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "tickets.jsonl:1:body", "start": 225, "end": 247, "text": "Tatra Logistics s.r.o.", "type": "ORGANIZATION", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "tickets.jsonl:1:body", "start": 251, "end": 267, "text": "+421 905 013 389", "type": "PHONE", "entity_id": "P01", "is_pii": true}
+{"doc_id": "tickets.jsonl:1:body", "start": 283, "end": 296, "text": "Lucia Benková", "type": "PERSON", "entity_id": "P11", "is_pii": true}
+{"doc_id": "tickets.jsonl:1:body", "start": 314, "end": 323, "text": "Kovalenko", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "tickets.jsonl:1:body", "start": 394, "end": 407, "text": "Lucia Benková", "type": "PERSON", "entity_id": "P11", "is_pii": true}
+{"doc_id": "tickets.jsonl:1:body", "start": 410, "end": 429, "text": "Dunaj Software a.s.", "type": "ORGANIZATION", "entity_id": "ORG5", "is_pii": false}
+{"doc_id": "tickets.jsonl:1:body", "start": 432, "end": 457, "text": "support@dunajsoft.example", "type": "EMAIL", "entity_id": "ORG5", "is_pii": false}
+{"doc_id": "tickets.jsonl:2:body", "start": 58, "end": 86, "text": "katka.bielikova@mail.example", "type": "EMAIL", "entity_id": "P10", "is_pii": true}
+{"doc_id": "tickets.jsonl:2:body", "start": 111, "end": 121, "text": "18.11.1972", "type": "DATE_OF_BIRTH", "entity_id": "P10", "is_pii": true}
+{"doc_id": "tickets.jsonl:2:body", "start": 164, "end": 195, "text": "Štúrova 66/A, 811 02 Bratislava", "type": "ADDRESS", "entity_id": "P10", "is_pii": true}
+{"doc_id": "tickets.jsonl:2:body", "start": 245, "end": 250, "text": "Marek", "type": "PERSON", "entity_id": "P15", "is_pii": true}
+{"doc_id": "tickets.jsonl:2:body", "start": 256, "end": 281, "text": "marek.bielik@mail.example", "type": "EMAIL", "entity_id": "P15", "is_pii": true}
+{"doc_id": "tickets.jsonl:2:body", "start": 293, "end": 298, "text": "Katka", "type": "PERSON", "entity_id": "P10", "is_pii": true}
+{"doc_id": "tickets.jsonl:3:body", "start": 84, "end": 115, "text": "n.shevchuk@karpaty-food.example", "type": "EMAIL", "entity_id": "P06", "is_pii": true}
+{"doc_id": "tickets.jsonl:3:body", "start": 124, "end": 149, "text": "info@karpaty-food.example", "type": "EMAIL", "entity_id": "ORG3", "is_pii": false}
+{"doc_id": "tickets.jsonl:3:body", "start": 163, "end": 177, "text": "Наталія Шевчук", "type": "PERSON", "entity_id": "P06", "is_pii": true}
+{"doc_id": "tickets.jsonl:3:body", "start": 198, "end": 215, "text": "ТОВ «Карпати Фуд»", "type": "ORGANIZATION", "entity_id": "ORG3", "is_pii": false}
+{"doc_id": "tickets.jsonl:3:body", "start": 221, "end": 238, "text": "+380 50 276 48 35", "type": "PHONE", "entity_id": "P06", "is_pii": true}
+{"doc_id": "tickets.jsonl:4:body", "start": 16, "end": 23, "text": "Benková", "type": "PERSON", "entity_id": "P11", "is_pii": true}
+{"doc_id": "tickets.jsonl:4:body", "start": 93, "end": 125, "text": "Jana Horváthová – Účtovné služby", "type": "ORGANIZATION", "entity_id": "P03", "is_pii": true}
+{"doc_id": "tickets.jsonl:4:body", "start": 145, "end": 169, "text": "Hlavná 12, 040 01 Košice", "type": "ADDRESS", "entity_id": "P03", "is_pii": true}
+{"doc_id": "tickets.jsonl:4:body", "start": 203, "end": 232, "text": "SK32 9901 0000 0084 9593 1034", "type": "IBAN", "entity_id": "P03", "is_pii": true}
+{"doc_id": "tickets.jsonl:4:body", "start": 247, "end": 262, "text": "Jana Horváthová", "type": "PERSON", "entity_id": "P03", "is_pii": true}
+{"doc_id": "tickets.jsonl:4:body", "start": 263, "end": 275, "text": "0948 407 816", "type": "PHONE", "entity_id": "P03", "is_pii": true}
+{"doc_id": "tickets.jsonl:5:body", "start": 143, "end": 148, "text": "Varga", "type": "PERSON", "entity_id": "P13", "is_pii": true}
+{"doc_id": "tickets.jsonl:5:body", "start": 152, "end": 168, "text": "+421 948 809 570", "type": "PHONE", "entity_id": "P13", "is_pii": true}
+{"doc_id": "tickets.jsonl:5:body", "start": 180, "end": 195, "text": "Lubomir Stastny", "type": "PERSON", "entity_id": "P05", "is_pii": true}
+{"doc_id": "tickets.jsonl:5:body", "start": 201, "end": 224, "text": "Martin Precision s.r.o.", "type": "ORGANIZATION", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "tickets.jsonl:5:body", "start": 225, "end": 258, "text": "l.stastny@martinprecision.example", "type": "EMAIL", "entity_id": "P05", "is_pii": true}
+{"doc_id": "tickets.jsonl:5:body", "start": 261, "end": 277, "text": "+421 41 553 4192", "type": "PHONE", "entity_id": "P05", "is_pii": true}
+{"doc_id": "tickets.jsonl:6:body", "start": 3, "end": 8, "text": "Tomáš", "type": "PERSON", "entity_id": "P12", "is_pii": true}
+{"doc_id": "tickets.jsonl:6:body", "start": 11, "end": 15, "text": "Alex", "type": "PERSON", "entity_id": "P09", "is_pii": true}
+{"doc_id": "tickets.jsonl:6:body", "start": 26, "end": 36, "text": "Brightwell", "type": "ORGANIZATION", "entity_id": "ORG2", "is_pii": false}
+{"doc_id": "tickets.jsonl:6:body", "start": 102, "end": 113, "text": "192.0.2.100", "type": "IP_ADDRESS", "entity_id": "P09", "is_pii": true}
+{"doc_id": "tickets.jsonl:6:body", "start": 118, "end": 133, "text": "2001:db8:4a::17", "type": "IP_ADDRESS", "entity_id": "P09", "is_pii": true}
+{"doc_id": "tickets.jsonl:6:body", "start": 170, "end": 181, "text": "Alex Wright", "type": "PERSON", "entity_id": "P09", "is_pii": true}
+{"doc_id": "tickets.jsonl:6:body", "start": 182, "end": 207, "text": "Brightwell Components Ltd", "type": "ORGANIZATION", "entity_id": "ORG2", "is_pii": false}
+{"doc_id": "tickets.jsonl:6:body", "start": 208, "end": 223, "text": "+44 7700 900691", "type": "PHONE", "entity_id": "P09", "is_pii": true}
+{"doc_id": "tickets.jsonl:7:body", "start": 28, "end": 46, "text": "ФОП Мельник Дмитро", "type": "ORGANIZATION", "entity_id": "P07", "is_pii": true}
+{"doc_id": "tickets.jsonl:7:body", "start": 101, "end": 118, "text": "FOP Dmytro Melnyk", "type": "ORGANIZATION", "entity_id": "P07", "is_pii": true}
+{"doc_id": "tickets.jsonl:7:body", "start": 125, "end": 161, "text": "UA90 3999 9967 2423 8849 6965 3287 1", "type": "IBAN", "entity_id": "P07", "is_pii": true}
+{"doc_id": "tickets.jsonl:7:body", "start": 172, "end": 176, "text": "Dima", "type": "PERSON", "entity_id": "P07", "is_pii": true}
+{"doc_id": "tickets.jsonl:8:body", "start": 41, "end": 57, "text": "Karpaty Food LLC", "type": "ORGANIZATION", "entity_id": "ORG3", "is_pii": false}
+{"doc_id": "tickets.jsonl:8:body", "start": 143, "end": 171, "text": "billing@karpaty-food.example", "type": "EMAIL", "entity_id": "ORG3", "is_pii": false}
+{"doc_id": "tickets.jsonl:8:body", "start": 188, "end": 208, "text": "Oleksandr Bondarenko", "type": "PERSON", "entity_id": "P02", "is_pii": true}
+{"doc_id": "tickets.jsonl:8:body", "start": 209, "end": 225, "text": "Karpaty Food LLC", "type": "ORGANIZATION", "entity_id": "ORG3", "is_pii": false}
+{"doc_id": "tickets.jsonl:8:body", "start": 226, "end": 239, "text": "050 511 61 55", "type": "PHONE", "entity_id": "P02", "is_pii": true}
+{"doc_id": "tickets.jsonl:8:body", "start": 274, "end": 286, "text": "Tomáš Kollár", "type": "PERSON", "entity_id": "P12", "is_pii": true}
+{"doc_id": "tickets.jsonl:8:body", "start": 288, "end": 314, "text": "t.kollar@dunajsoft.example", "type": "EMAIL", "entity_id": "P12", "is_pii": true}
+{"doc_id": "tickets.jsonl:8:body", "start": 420, "end": 432, "text": "Tomas Kollar", "type": "PERSON", "entity_id": "P12", "is_pii": true}
+{"doc_id": "tickets.jsonl:9:body", "start": 91, "end": 121, "text": "office@martinprecision.example", "type": "EMAIL", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "tickets.jsonl:9:body", "start": 133, "end": 149, "text": "Martin Precision", "type": "ORGANIZATION", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "emails/thread_01.txt", "start": 6, "end": 18, "text": "Emily Carter", "type": "PERSON", "entity_id": "P08", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 20, "end": 51, "text": "emily.carter@brightwell.example", "type": "EMAIL", "entity_id": "P08", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 72, "end": 97, "text": "support@dunajsoft.example", "type": "EMAIL", "entity_id": "ORG5", "is_pii": false}
+{"doc_id": "emails/thread_01.txt", "start": 103, "end": 119, "text": "Alexander Wright", "type": "PERSON", "entity_id": "P09", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 121, "end": 148, "text": "a.wright@brightwell.example", "type": "EMAIL", "entity_id": "P09", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 219, "end": 244, "text": "Brightwell Components Ltd", "type": "ORGANIZATION", "entity_id": "ORG2", "is_pii": false}
+{"doc_id": "emails/thread_01.txt", "start": 249, "end": 254, "text": "Lucia", "type": "PERSON", "entity_id": "P11", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 279, "end": 283, "text": "Alex", "type": "PERSON", "entity_id": "P09", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 378, "end": 416, "text": "Unit 9, Riverside Park, Leeds LS11 5QT", "type": "ADDRESS", "entity_id": "ORG2", "is_pii": false}
+{"doc_id": "emails/thread_01.txt", "start": 425, "end": 437, "text": "Emily Carter", "type": "PERSON", "entity_id": "P08", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 457, "end": 482, "text": "Brightwell Components Ltd", "type": "ORGANIZATION", "entity_id": "ORG2", "is_pii": false}
+{"doc_id": "emails/thread_01.txt", "start": 483, "end": 498, "text": "+44 7700 900122", "type": "PHONE", "entity_id": "P08", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 533, "end": 546, "text": "Lucia Benková", "type": "PERSON", "entity_id": "P11", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 548, "end": 579, "text": "lucia.benkova@dunajsoft.example", "type": "EMAIL", "entity_id": "P11", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 611, "end": 623, "text": "Emily Carter", "type": "PERSON", "entity_id": "P08", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 625, "end": 656, "text": "emily.carter@brightwell.example", "type": "EMAIL", "entity_id": "P08", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 685, "end": 710, "text": "Brightwell Components Ltd", "type": "ORGANIZATION", "entity_id": "ORG2", "is_pii": false}
+{"doc_id": "emails/thread_01.txt", "start": 720, "end": 726, "text": "Carter", "type": "PERSON", "entity_id": "P08", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 778, "end": 785, "text": "C-23434", "type": "CUSTOMER_ID", "entity_id": "P08", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 830, "end": 843, "text": "Lucia Benková", "type": "PERSON", "entity_id": "P11", "is_pii": true}
+{"doc_id": "emails/thread_01.txt", "start": 862, "end": 881, "text": "Dunaj Software a.s.", "type": "ORGANIZATION", "entity_id": "ORG5", "is_pii": false}
+{"doc_id": "emails/thread_01.txt", "start": 882, "end": 898, "text": "+421 2 1489 3252", "type": "PHONE", "entity_id": "P11", "is_pii": true}
+{"doc_id": "emails/thread_02.txt", "start": 6, "end": 20, "text": "Наталія Шевчук", "type": "PERSON", "entity_id": "P06", "is_pii": true}
+{"doc_id": "emails/thread_02.txt", "start": 22, "end": 53, "text": "n.shevchuk@karpaty-food.example", "type": "EMAIL", "entity_id": "P06", "is_pii": true}
+{"doc_id": "emails/thread_02.txt", "start": 59, "end": 79, "text": "Oleksandr Bondarenko", "type": "PERSON", "entity_id": "P02", "is_pii": true}
+{"doc_id": "emails/thread_02.txt", "start": 81, "end": 122, "text": "oleksandr.bondarenko@karpaty-food.example", "type": "EMAIL", "entity_id": "P02", "is_pii": true}
+{"doc_id": "emails/thread_02.txt", "start": 128, "end": 153, "text": "billing@dunajsoft.example", "type": "EMAIL", "entity_id": "ORG5", "is_pii": false}
+{"doc_id": "emails/thread_02.txt", "start": 232, "end": 242, "text": "Олександре", "type": "PERSON", "entity_id": "P02", "is_pii": true}
+{"doc_id": "emails/thread_02.txt", "start": 267, "end": 286, "text": "Dunaj Software a.s.", "type": "ORGANIZATION", "entity_id": "ORG5", "is_pii": false}
+{"doc_id": "emails/thread_02.txt", "start": 386, "end": 399, "text": "050 276 48 35", "type": "PHONE", "entity_id": "P06", "is_pii": true}
+{"doc_id": "emails/thread_02.txt", "start": 431, "end": 440, "text": "Коваленка", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "emails/thread_02.txt", "start": 443, "end": 458, "text": "Tatra Logistics", "type": "ORGANIZATION", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "emails/thread_02.txt", "start": 472, "end": 479, "text": "Наталія", "type": "PERSON", "entity_id": "P06", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 6, "end": 17, "text": "Peter Novák", "type": "PERSON", "entity_id": "P04", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 19, "end": 54, "text": "peter.novak@tatra-logistics.example", "type": "EMAIL", "entity_id": "P04", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 60, "end": 85, "text": "billing@dunajsoft.example", "type": "EMAIL", "entity_id": "ORG5", "is_pii": false}
+{"doc_id": "emails/thread_03.txt", "start": 90, "end": 118, "text": "info@tatra-logistics.example", "type": "EMAIL", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "emails/thread_03.txt", "start": 120, "end": 139, "text": "Oleksandr Kovalenko", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 141, "end": 176, "text": "o.kovalenko@tatra-logistics.example", "type": "EMAIL", "entity_id": "P01", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 370, "end": 375, "text": "46048", "type": "CUSTOMER_ID", "entity_id": "P04", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 397, "end": 408, "text": "Peter Novák", "type": "PERSON", "entity_id": "P04", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 418, "end": 440, "text": "Tatra Logistics s.r.o.", "type": "ORGANIZATION", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "emails/thread_03.txt", "start": 441, "end": 455, "text": "(0908) 164-752", "type": "PHONE", "entity_id": "P04", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 493, "end": 512, "text": "Alexander Kovalenko", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 514, "end": 549, "text": "o.kovalenko@tatra-logistics.example", "type": "EMAIL", "entity_id": "P01", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 569, "end": 573, "text": "Peťo", "type": "PERSON", "entity_id": "P04", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 665, "end": 675, "text": "0905013389", "type": "PHONE", "entity_id": "P01", "is_pii": true}
+{"doc_id": "emails/thread_03.txt", "start": 693, "end": 698, "text": "Sasha", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 6, "end": 21, "text": "Ľubomír Šťastný", "type": "PERSON", "entity_id": "P05", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 23, "end": 56, "text": "l.stastny@martinprecision.example", "type": "EMAIL", "entity_id": "P05", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 62, "end": 74, "text": "Tomáš Kollár", "type": "PERSON", "entity_id": "P12", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 76, "end": 102, "text": "t.kollar@dunajsoft.example", "type": "EMAIL", "entity_id": "P12", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 190, "end": 196, "text": "Kollár", "type": "PERSON", "entity_id": "P12", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 267, "end": 293, "text": "Hollého 104, 036 01 Martin", "type": "ADDRESS", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "emails/thread_04.txt", "start": 314, "end": 326, "text": "Michal Varga", "type": "PERSON", "entity_id": "P13", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 328, "end": 364, "text": "michal.varga@martinprecision.example", "type": "EMAIL", "entity_id": "P13", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 402, "end": 408, "text": "Vargom", "type": "PERSON", "entity_id": "P13", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 423, "end": 438, "text": "Ľubomír Šťastný", "type": "PERSON", "entity_id": "P05", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 439, "end": 462, "text": "Martin Precision s.r.o.", "type": "ORGANIZATION", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "emails/thread_04.txt", "start": 485, "end": 497, "text": "Tomas Kollar", "type": "PERSON", "entity_id": "P12", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 499, "end": 525, "text": "t.kollar@dunajsoft.example", "type": "EMAIL", "entity_id": "P12", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 544, "end": 551, "text": "Stastny", "type": "PERSON", "entity_id": "P05", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 628, "end": 640, "text": "Tomas Kollar", "type": "PERSON", "entity_id": "P12", "is_pii": true}
+{"doc_id": "emails/thread_04.txt", "start": 643, "end": 662, "text": "Dunaj Software a.s.", "type": "ORGANIZATION", "entity_id": "ORG5", "is_pii": false}
+{"doc_id": "emails/thread_05.txt", "start": 6, "end": 20, "text": "Дмитро Мельник", "type": "PERSON", "entity_id": "P07", "is_pii": true}
+{"doc_id": "emails/thread_05.txt", "start": 22, "end": 48, "text": "dmytro.melnyk@mail.example", "type": "EMAIL", "entity_id": "P07", "is_pii": true}
+{"doc_id": "emails/thread_05.txt", "start": 78, "end": 103, "text": "support@dunajsoft.example", "type": "EMAIL", "entity_id": "ORG5", "is_pii": false}
+{"doc_id": "emails/thread_05.txt", "start": 253, "end": 270, "text": "16 листопада 1978", "type": "DATE_OF_BIRTH", "entity_id": "P07", "is_pii": true}
+{"doc_id": "emails/thread_05.txt", "start": 279, "end": 309, "text": "вул. Шевченка, 8, Львів, 79000", "type": "ADDRESS", "entity_id": "P07", "is_pii": true}
+{"doc_id": "emails/thread_05.txt", "start": 330, "end": 344, "text": "198.51.100.195", "type": "IP_ADDRESS", "entity_id": "P07", "is_pii": true}
+{"doc_id": "emails/thread_05.txt", "start": 354, "end": 368, "text": "Дмитро Мельник", "type": "PERSON", "entity_id": "P07", "is_pii": true}
+{"doc_id": "emails/thread_05.txt", "start": 369, "end": 387, "text": "ФОП Мельник Дмитро", "type": "ORGANIZATION", "entity_id": "P07", "is_pii": true}
+{"doc_id": "emails/thread_05.txt", "start": 388, "end": 405, "text": "+380 67 564 13 95", "type": "PHONE", "entity_id": "P07", "is_pii": true}
+{"doc_id": "emails/thread_06.txt", "start": 6, "end": 18, "text": "Radim Kučera", "type": "PERSON", "entity_id": "P14", "is_pii": true}
+{"doc_id": "emails/thread_06.txt", "start": 20, "end": 52, "text": "r.kucera@tatra-logistics.example", "type": "EMAIL", "entity_id": "P14", "is_pii": true}
+{"doc_id": "emails/thread_06.txt", "start": 58, "end": 70, "text": "Tomáš Kollár", "type": "PERSON", "entity_id": "P12", "is_pii": true}
+{"doc_id": "emails/thread_06.txt", "start": 72, "end": 98, "text": "t.kollar@dunajsoft.example", "type": "EMAIL", "entity_id": "P12", "is_pii": true}
+{"doc_id": "emails/thread_06.txt", "start": 168, "end": 183, "text": "Tatra Logistics", "type": "ORGANIZATION", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "emails/thread_06.txt", "start": 188, "end": 193, "text": "Tomáš", "type": "PERSON", "entity_id": "P12", "is_pii": true}
+{"doc_id": "emails/thread_06.txt", "start": 244, "end": 253, "text": "Oleksandr", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "emails/thread_06.txt", "start": 311, "end": 327, "text": "+421 905 543 039", "type": "PHONE", "entity_id": "P14", "is_pii": true}
+{"doc_id": "emails/thread_06.txt", "start": 338, "end": 343, "text": "Radim", "type": "PERSON", "entity_id": "P14", "is_pii": true}
+{"doc_id": "chats.jsonl:1:messages.0.text", "start": 7, "end": 13, "text": "dmytro", "type": "PERSON", "entity_id": "P07", "is_pii": true}
+{"doc_id": "chats.jsonl:1:messages.1.text", "start": 15, "end": 20, "text": "Tomáš", "type": "PERSON", "entity_id": "P12", "is_pii": true}
+{"doc_id": "chats.jsonl:1:messages.1.text", "start": 26, "end": 40, "text": "Dunaj Software", "type": "ORGANIZATION", "entity_id": "ORG5", "is_pii": false}
+{"doc_id": "chats.jsonl:1:messages.2.text", "start": 0, "end": 26, "text": "dmytro.melnyk@mail.example", "type": "EMAIL", "entity_id": "P07", "is_pii": true}
+{"doc_id": "chats.jsonl:1:messages.3.text", "start": 14, "end": 28, "text": "198.51.100.195", "type": "IP_ADDRESS", "entity_id": "P07", "is_pii": true}
+{"doc_id": "chats.jsonl:1:messages.4.text", "start": 7, "end": 13, "text": "Dmytro", "type": "PERSON", "entity_id": "P07", "is_pii": true}
+{"doc_id": "chats.jsonl:1:messages.5.text", "start": 28, "end": 41, "text": "DMYTRO MELNYK", "type": "PERSON", "entity_id": "P07", "is_pii": true}
+{"doc_id": "chats.jsonl:2:messages.0.text", "start": 4, "end": 9, "text": "Sasha", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "chats.jsonl:2:messages.0.text", "start": 27, "end": 52, "text": "support@dunajsoft.example", "type": "EMAIL", "entity_id": "ORG5", "is_pii": false}
+{"doc_id": "chats.jsonl:2:messages.1.text", "start": 3, "end": 8, "text": "Sasha", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "chats.jsonl:2:messages.1.text", "start": 14, "end": 19, "text": "Lucia", "type": "PERSON", "entity_id": "P11", "is_pii": true}
+{"doc_id": "chats.jsonl:2:messages.2.text", "start": 42, "end": 52, "text": "0905013389", "type": "PHONE", "entity_id": "P01", "is_pii": true}
+{"doc_id": "chats.jsonl:2:messages.2.text", "start": 65, "end": 87, "text": "sasha.k92@mail.example", "type": "EMAIL", "entity_id": "P01", "is_pii": true}
+{"doc_id": "chats.jsonl:3:messages.0.text", "start": 7, "end": 22, "text": "Lubomir Stastny", "type": "PERSON", "entity_id": "P05", "is_pii": true}
+{"doc_id": "chats.jsonl:3:messages.0.text", "start": 28, "end": 44, "text": "Martin Precision", "type": "ORGANIZATION", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "chats.jsonl:3:messages.1.text", "start": 6, "end": 13, "text": "Stastny", "type": "PERSON", "entity_id": "P05", "is_pii": true}
+{"doc_id": "chats.jsonl:3:messages.1.text", "start": 15, "end": 20, "text": "Tomáš", "type": "PERSON", "entity_id": "P12", "is_pii": true}
+{"doc_id": "chats.jsonl:3:messages.2.text", "start": 13, "end": 46, "text": "l.stastny@martinprecision.example", "type": "EMAIL", "entity_id": "P05", "is_pii": true}
+{"doc_id": "chats.jsonl:3:messages.2.text", "start": 68, "end": 74, "text": "Michal", "type": "PERSON", "entity_id": "P13", "is_pii": true}
+{"doc_id": "chats.jsonl:3:messages.2.text", "start": 90, "end": 102, "text": "0948 809 570", "type": "PHONE", "entity_id": "P13", "is_pii": true}
+{"doc_id": "chats.jsonl:4:messages.0.text", "start": 9, "end": 16, "text": "Natasha", "type": "PERSON", "entity_id": "P06", "is_pii": true}
+{"doc_id": "chats.jsonl:4:messages.0.text", "start": 22, "end": 34, "text": "Karpaty Food", "type": "ORGANIZATION", "entity_id": "ORG3", "is_pii": false}
+{"doc_id": "chats.jsonl:4:messages.1.text", "start": 6, "end": 13, "text": "Natasha", "type": "PERSON", "entity_id": "P06", "is_pii": true}
+{"doc_id": "chats.jsonl:4:messages.2.text", "start": 33, "end": 64, "text": "n.shevchuk@karpaty-food.example", "type": "EMAIL", "entity_id": "P06", "is_pii": true}
+{"doc_id": "chats.jsonl:4:messages.2.text", "start": 68, "end": 104, "text": "n.shevchuk [at] karpaty-food.example", "type": "EMAIL", "entity_id": "P06", "is_pii": true}
+{"doc_id": "chats.jsonl:5:messages.0.text", "start": 20, "end": 38, "text": "Katarína Bieliková", "type": "PERSON", "entity_id": "P10", "is_pii": true}
+{"doc_id": "chats.jsonl:5:messages.0.text", "start": 57, "end": 62, "text": "81482", "type": "CUSTOMER_ID", "entity_id": "P10", "is_pii": true}
+{"doc_id": "chats.jsonl:5:messages.1.text", "start": 16, "end": 25, "text": "Bieliková", "type": "PERSON", "entity_id": "P10", "is_pii": true}
+{"doc_id": "chats.jsonl:5:messages.2.text", "start": 5, "end": 22, "text": "18. novembra 1972", "type": "DATE_OF_BIRTH", "entity_id": "P10", "is_pii": true}
+{"doc_id": "chats.jsonl:5:messages.2.text", "start": 33, "end": 45, "text": "Štúrova 66/A", "type": "ADDRESS", "entity_id": "P10", "is_pii": true}
+{"doc_id": "chats.jsonl:6:messages.2.text", "start": 58, "end": 86, "text": "info@tatra-logistics.example", "type": "EMAIL", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "chats.jsonl:6:messages.2.text", "start": 103, "end": 108, "text": "Radim", "type": "PERSON", "entity_id": "P14", "is_pii": true}
+{"doc_id": "invoices.csv:1:client_name", "start": 0, "end": 32, "text": "Jana Horváthová – Účtovné služby", "type": "ORGANIZATION", "entity_id": "P03", "is_pii": true}
+{"doc_id": "invoices.csv:1:IBAN", "start": 0, "end": 24, "text": "SK3299010000008495931034", "type": "IBAN", "entity_id": "P03", "is_pii": true}
+{"doc_id": "invoices.csv:1:billing_address", "start": 0, "end": 24, "text": "Hlavná 12, 040 01 Košice", "type": "ADDRESS", "entity_id": "P03", "is_pii": true}
+{"doc_id": "invoices.csv:2:client_name", "start": 0, "end": 22, "text": "Tatra Logistics s.r.o.", "type": "ORGANIZATION", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "invoices.csv:2:IBAN", "start": 0, "end": 24, "text": "SK2699030000009638346578", "type": "IBAN", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "invoices.csv:2:billing_address", "start": 0, "end": 30, "text": "Južná trieda 59, 040 01 Košice", "type": "ADDRESS", "entity_id": "ORG1", "is_pii": false}
+{"doc_id": "invoices.csv:3:client_name", "start": 0, "end": 25, "text": "Brightwell Components Ltd", "type": "ORGANIZATION", "entity_id": "ORG2", "is_pii": false}
+{"doc_id": "invoices.csv:3:IBAN", "start": 0, "end": 22, "text": "GB91ZZBK13315098393010", "type": "IBAN", "entity_id": "ORG2", "is_pii": false}
+{"doc_id": "invoices.csv:3:billing_address", "start": 0, "end": 38, "text": "Unit 9, Riverside Park, Leeds LS11 5QT", "type": "ADDRESS", "entity_id": "ORG2", "is_pii": false}
+{"doc_id": "invoices.csv:4:client_name", "start": 0, "end": 17, "text": "ТОВ «Карпати Фуд»", "type": "ORGANIZATION", "entity_id": "ORG3", "is_pii": false}
+{"doc_id": "invoices.csv:4:IBAN", "start": 0, "end": 29, "text": "UA853999991051834738299737631", "type": "IBAN", "entity_id": "ORG3", "is_pii": false}
+{"doc_id": "invoices.csv:4:billing_address", "start": 0, "end": 33, "text": "вул. Городоцька, 14, Львів, 79022", "type": "ADDRESS", "entity_id": "ORG3", "is_pii": false}
+{"doc_id": "invoices.csv:5:client_name", "start": 0, "end": 18, "text": "Katarína Bieliková", "type": "PERSON", "entity_id": "P10", "is_pii": true}
+{"doc_id": "invoices.csv:5:IBAN", "start": 0, "end": 24, "text": "SK3499020000005146270482", "type": "IBAN", "entity_id": "P10", "is_pii": true}
+{"doc_id": "invoices.csv:5:billing_address", "start": 0, "end": 31, "text": "Štúrova 66/A, 811 02 Bratislava", "type": "ADDRESS", "entity_id": "P10", "is_pii": true}
+{"doc_id": "invoices.csv:6:client_name", "start": 0, "end": 23, "text": "Martin Precision s.r.o.", "type": "ORGANIZATION", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "invoices.csv:6:IBAN", "start": 0, "end": 24, "text": "SK1399030000006566701065", "type": "IBAN", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "invoices.csv:6:billing_address", "start": 0, "end": 26, "text": "Hollého 104, 036 01 Martin", "type": "ADDRESS", "entity_id": "ORG4", "is_pii": false}
+{"doc_id": "invoices.csv:7:client_name", "start": 0, "end": 19, "text": "Oleksandr Kovalenko", "type": "PERSON", "entity_id": "P01", "is_pii": true}
+{"doc_id": "invoices.csv:7:IBAN", "start": 0, "end": 24, "text": "SK1699030000008637940265", "type": "IBAN", "entity_id": "P01", "is_pii": true}
+{"doc_id": "invoices.csv:7:billing_address", "start": 0, "end": 27, "text": "Moyzesova 21, 040 01 Košice", "type": "ADDRESS", "entity_id": "P01", "is_pii": true}
+{"doc_id": "invoices.csv:8:client_name", "start": 0, "end": 17, "text": "FOP Dmytro Melnyk", "type": "ORGANIZATION", "entity_id": "P07", "is_pii": true}
+{"doc_id": "invoices.csv:8:IBAN", "start": 0, "end": 29, "text": "UA903999996724238849696532871", "type": "IBAN", "entity_id": "P07", "is_pii": true}
+{"doc_id": "invoices.csv:8:billing_address", "start": 0, "end": 30, "text": "вул. Шевченка, 8, Львів, 79000", "type": "ADDRESS", "entity_id": "P07", "is_pii": true}
+{"doc_id": "invoices.csv:9:client_name", "start": 0, "end": 12, "text": "Marek Bielik", "type": "PERSON", "entity_id": "P15", "is_pii": true}
+{"doc_id": "invoices.csv:9:IBAN", "start": 0, "end": 24, "text": "SK4899010000001718227824", "type": "IBAN", "entity_id": "P15", "is_pii": true}
+{"doc_id": "invoices.csv:9:billing_address", "start": 0, "end": 31, "text": "Štúrova 66/A, 811 02 Bratislava", "type": "ADDRESS", "entity_id": "P15", "is_pii": true}

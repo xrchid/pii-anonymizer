@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Pipeline output (predictions, pseudonymized copies, the re-identification key)
+out/
+*pseudonym_key*.json
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store

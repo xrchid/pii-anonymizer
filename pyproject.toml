@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "piianon"
+version = "0.1.0"
+description = "Rule-based PII detection, entity resolution and consistent pseudonymization for business records"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Roman Hulii" }]
+dependencies = []
+keywords = ["pii", "gdpr", "pseudonymization", "anonymization", "entity-resolution", "data-annotation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing",
+]
+
+[project.scripts]
+piianon = "piianon.__main__:main"
+
+[tool.setuptools]
+packages = ["piianon"]

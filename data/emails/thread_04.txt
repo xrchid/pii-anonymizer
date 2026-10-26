@@ -1,0 +1,19 @@
+From: Ľubomír Šťastný <l.stastny@martinprecision.example>
+To: Tomáš Kollár <t.kollar@dunajsoft.example>
+Date: Fri, 13 Mar 2026 09:15:00 +0100
+Subject: Re: Aktivácia licencie
+
+Dobrý deň, pán Kollár,
+
+ďakujem, aktivácia už funguje. Pre fakturáciu prosím použite adresu Hollého 104, 036 01 Martin. Kontakt na kolegu: Michal Varga, michal.varga@martinprecision.example. Termín školenia som dohodol s pánom Vargom.
+
+S pozdravom
+Ľubomír Šťastný
+Martin Precision s.r.o.
+
+On 12.03.2026 17:20, Tomas Kollar <t.kollar@dunajsoft.example> wrote:
+> Dear Mr Stastny,
+> please try the activation again with version 4.12.0.2.
+> Best regards,
+> Tomas Kollar
+> Dunaj Software a.s.

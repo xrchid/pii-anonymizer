@@ -1,0 +1,134 @@
+{"doc_id": "crm_export.csv:1:city", "start": 0, "end": 6, "text": "Košice", "kind": "CITY"}
+{"doc_id": "crm_export.csv:1:notes", "start": 117, "end": 125, "text": "10.2.3.4", "kind": "VERSION_STRING"}
+{"doc_id": "crm_export.csv:2:city", "start": 0, "end": 4, "text": "Lviv", "kind": "CITY"}
+{"doc_id": "crm_export.csv:2:notes", "start": 84, "end": 98, "text": "ORD-2026-11873", "kind": "ORDER_NUMBER"}
+{"doc_id": "crm_export.csv:3:city", "start": 0, "end": 6, "text": "Košice", "kind": "CITY"}
+{"doc_id": "crm_export.csv:4:city", "start": 0, "end": 6, "text": "Košice", "kind": "CITY"}
+{"doc_id": "crm_export.csv:5:city", "start": 0, "end": 6, "text": "Martin", "kind": "CITY"}
+{"doc_id": "crm_export.csv:5:notes", "start": 43, "end": 53, "text": "BX-4410-22", "kind": "PRODUCT_CODE"}
+{"doc_id": "crm_export.csv:5:notes", "start": 62, "end": 72, "text": "02.03.2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "crm_export.csv:6:city", "start": 0, "end": 4, "text": "Lviv", "kind": "CITY"}
+{"doc_id": "crm_export.csv:7:city", "start": 0, "end": 4, "text": "Lviv", "kind": "CITY"}
+{"doc_id": "crm_export.csv:8:city", "start": 0, "end": 5, "text": "Leeds", "kind": "CITY"}
+{"doc_id": "crm_export.csv:9:city", "start": 0, "end": 5, "text": "Leeds", "kind": "CITY"}
+{"doc_id": "crm_export.csv:10:city", "start": 0, "end": 10, "text": "Bratislava", "kind": "CITY"}
+{"doc_id": "crm_export.csv:11:city", "start": 0, "end": 6, "text": "Martin", "kind": "CITY"}
+{"doc_id": "crm_export.csv:12:city", "start": 0, "end": 6, "text": "Košice", "kind": "CITY"}
+{"doc_id": "tickets.jsonl:1:ticket_id", "start": 0, "end": 11, "text": "T-2026-0982", "kind": "TICKET_ID"}
+{"doc_id": "tickets.jsonl:1:created_at", "start": 0, "end": 20, "text": "2026-03-04T19:40:11Z", "kind": "TIMESTAMP"}
+{"doc_id": "tickets.jsonl:1:subject", "start": 37, "end": 45, "text": "10.2.3.4", "kind": "VERSION_STRING"}
+{"doc_id": "tickets.jsonl:1:body", "start": 42, "end": 50, "text": "10.2.3.4", "kind": "VERSION_STRING"}
+{"doc_id": "tickets.jsonl:1:body", "start": 272, "end": 282, "text": "12.03.2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "tickets.jsonl:2:ticket_id", "start": 0, "end": 11, "text": "T-2026-0976", "kind": "TICKET_ID"}
+{"doc_id": "tickets.jsonl:2:created_at", "start": 0, "end": 20, "text": "2026-03-05T12:33:17Z", "kind": "TIMESTAMP"}
+{"doc_id": "tickets.jsonl:3:ticket_id", "start": 0, "end": 11, "text": "T-2026-0663", "kind": "TICKET_ID"}
+{"doc_id": "tickets.jsonl:3:created_at", "start": 0, "end": 20, "text": "2026-03-06T15:52:29Z", "kind": "TIMESTAMP"}
+{"doc_id": "tickets.jsonl:3:subject", "start": 16, "end": 29, "text": "INV-2026-0042", "kind": "INVOICE_NUMBER"}
+{"doc_id": "tickets.jsonl:3:body", "start": 41, "end": 54, "text": "INV-2026-0042", "kind": "INVOICE_NUMBER"}
+{"doc_id": "tickets.jsonl:4:ticket_id", "start": 0, "end": 11, "text": "T-2026-0200", "kind": "TICKET_ID"}
+{"doc_id": "tickets.jsonl:4:created_at", "start": 0, "end": 20, "text": "2026-03-06T16:38:15Z", "kind": "TIMESTAMP"}
+{"doc_id": "tickets.jsonl:4:subject", "start": 15, "end": 28, "text": "INV-2026-0039", "kind": "INVOICE_NUMBER"}
+{"doc_id": "tickets.jsonl:4:body", "start": 50, "end": 63, "text": "INV-2026-0039", "kind": "INVOICE_NUMBER"}
+{"doc_id": "tickets.jsonl:5:ticket_id", "start": 0, "end": 11, "text": "T-2026-0151", "kind": "TICKET_ID"}
+{"doc_id": "tickets.jsonl:5:created_at", "start": 0, "end": 20, "text": "2026-03-07T23:47:55Z", "kind": "TIMESTAMP"}
+{"doc_id": "tickets.jsonl:5:body", "start": 47, "end": 55, "text": "4.12.0.1", "kind": "VERSION_STRING"}
+{"doc_id": "tickets.jsonl:5:body", "start": 77, "end": 87, "text": "BX-4410-22", "kind": "PRODUCT_CODE"}
+{"doc_id": "tickets.jsonl:6:ticket_id", "start": 0, "end": 11, "text": "T-2026-0767", "kind": "TICKET_ID"}
+{"doc_id": "tickets.jsonl:6:created_at", "start": 0, "end": 20, "text": "2026-03-11T22:24:59Z", "kind": "TIMESTAMP"}
+{"doc_id": "tickets.jsonl:7:ticket_id", "start": 0, "end": 11, "text": "T-2026-0653", "kind": "TICKET_ID"}
+{"doc_id": "tickets.jsonl:7:created_at", "start": 0, "end": 20, "text": "2026-03-12T13:00:04Z", "kind": "TIMESTAMP"}
+{"doc_id": "tickets.jsonl:7:subject", "start": 24, "end": 37, "text": "INV-2026-0046", "kind": "INVOICE_NUMBER"}
+{"doc_id": "tickets.jsonl:7:body", "start": 84, "end": 97, "text": "INV-2026-0046", "kind": "INVOICE_NUMBER"}
+{"doc_id": "tickets.jsonl:8:ticket_id", "start": 0, "end": 11, "text": "T-2026-0956", "kind": "TICKET_ID"}
+{"doc_id": "tickets.jsonl:8:created_at", "start": 0, "end": 20, "text": "2026-03-14T12:53:28Z", "kind": "TIMESTAMP"}
+{"doc_id": "tickets.jsonl:8:body", "start": 81, "end": 95, "text": "ORD-2026-11902", "kind": "ORDER_NUMBER"}
+{"doc_id": "tickets.jsonl:8:body", "start": 322, "end": 332, "text": "05.03.2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "tickets.jsonl:8:body", "start": 340, "end": 348, "text": "Customer", "kind": "SALUTATION"}
+{"doc_id": "tickets.jsonl:8:body", "start": 384, "end": 398, "text": "ORD-2026-11873", "kind": "ORDER_NUMBER"}
+{"doc_id": "tickets.jsonl:9:ticket_id", "start": 0, "end": 11, "text": "T-2026-0115", "kind": "TICKET_ID"}
+{"doc_id": "tickets.jsonl:9:created_at", "start": 0, "end": 20, "text": "2026-03-21T22:35:51Z", "kind": "TIMESTAMP"}
+{"doc_id": "tickets.jsonl:9:body", "start": 5, "end": 17, "text": "Support Team", "kind": "SALUTATION"}
+{"doc_id": "tickets.jsonl:9:body", "start": 60, "end": 68, "text": "10.3.0.1", "kind": "VERSION_STRING"}
+{"doc_id": "emails/thread_01.txt", "start": 57, "end": 70, "text": "Dunaj Support", "kind": "ROLE_DISPLAY_NAME"}
+{"doc_id": "emails/thread_01.txt", "start": 161, "end": 172, "text": "10 Mar 2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "emails/thread_01.txt", "start": 587, "end": 600, "text": "09 March 2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "emails/thread_01.txt", "start": 801, "end": 813, "text": "4 860.00 GBP", "kind": "AMOUNT"}
+{"doc_id": "emails/thread_02.txt", "start": 165, "end": 176, "text": "11 Mar 2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "emails/thread_02.txt", "start": 209, "end": 222, "text": "INV-2026-0042", "kind": "INVOICE_NUMBER"}
+{"doc_id": "emails/thread_02.txt", "start": 325, "end": 339, "text": "ORD-2026-11873", "kind": "ORDER_NUMBER"}
+{"doc_id": "emails/thread_03.txt", "start": 189, "end": 200, "text": "12 Mar 2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "emails/thread_03.txt", "start": 250, "end": 263, "text": "INV-2026-0040", "kind": "INVOICE_NUMBER"}
+{"doc_id": "emails/thread_03.txt", "start": 557, "end": 567, "text": "12.03.2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "emails/thread_04.txt", "start": 115, "end": 126, "text": "13 Mar 2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "emails/thread_04.txt", "start": 467, "end": 477, "text": "12.03.2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "emails/thread_04.txt", "start": 600, "end": 608, "text": "4.12.0.2", "kind": "VERSION_STRING"}
+{"doc_id": "emails/thread_05.txt", "start": 54, "end": 76, "text": "Dunaj Software Support", "kind": "ROLE_DISPLAY_NAME"}
+{"doc_id": "emails/thread_05.txt", "start": 116, "end": 127, "text": "16 Mar 2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "emails/thread_06.txt", "start": 111, "end": 122, "text": "17 Mar 2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "chats.jsonl:1:started_at", "start": 0, "end": 20, "text": "2026-03-04T10:56:31Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:1:messages.0.ts", "start": 0, "end": 20, "text": "2026-03-04T10:56:31Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:1:messages.1.ts", "start": 0, "end": 20, "text": "2026-03-06T02:49:30Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:1:messages.2.ts", "start": 0, "end": 20, "text": "2026-03-07T17:05:13Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:1:messages.3.ts", "start": 0, "end": 20, "text": "2026-03-11T13:57:55Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:1:messages.4.ts", "start": 0, "end": 20, "text": "2026-03-19T11:32:25Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:1:messages.5.ts", "start": 0, "end": 20, "text": "2026-03-21T15:30:57Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:2:started_at", "start": 0, "end": 20, "text": "2026-03-02T09:10:24Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:2:messages.0.ts", "start": 0, "end": 20, "text": "2026-03-02T09:10:24Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:2:messages.1.ts", "start": 0, "end": 20, "text": "2026-03-03T16:01:16Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:2:messages.2.ts", "start": 0, "end": 20, "text": "2026-03-06T01:54:59Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:2:messages.2.text", "start": 8, "end": 16, "text": "10.2.3.4", "kind": "VERSION_STRING"}
+{"doc_id": "chats.jsonl:2:messages.3.ts", "start": 0, "end": 20, "text": "2026-03-10T22:58:50Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:3:started_at", "start": 0, "end": 20, "text": "2026-03-08T19:47:27Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:3:messages.0.ts", "start": 0, "end": 20, "text": "2026-03-08T19:47:27Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:3:messages.0.text", "start": 74, "end": 82, "text": "2.4.10.1", "kind": "VERSION_STRING"}
+{"doc_id": "chats.jsonl:3:messages.1.ts", "start": 0, "end": 20, "text": "2026-03-12T16:29:44Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:3:messages.2.ts", "start": 0, "end": 20, "text": "2026-03-20T04:47:46Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:4:started_at", "start": 0, "end": 20, "text": "2026-03-14T23:31:45Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:4:messages.0.ts", "start": 0, "end": 20, "text": "2026-03-14T23:31:45Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:4:messages.0.text", "start": 64, "end": 77, "text": "INV-2026-0042", "kind": "INVOICE_NUMBER"}
+{"doc_id": "chats.jsonl:4:messages.1.ts", "start": 0, "end": 20, "text": "2026-03-17T09:28:31Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:4:messages.1.text", "start": 43, "end": 53, "text": "18.03.2026", "kind": "MESSAGE_DATE"}
+{"doc_id": "chats.jsonl:4:messages.2.ts", "start": 0, "end": 20, "text": "2026-03-20T03:49:09Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:5:started_at", "start": 0, "end": 20, "text": "2026-03-06T15:42:03Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:5:messages.0.ts", "start": 0, "end": 20, "text": "2026-03-06T15:42:03Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:5:messages.1.ts", "start": 0, "end": 20, "text": "2026-03-07T06:53:37Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:5:messages.2.ts", "start": 0, "end": 20, "text": "2026-03-09T02:02:47Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:6:started_at", "start": 0, "end": 20, "text": "2026-03-03T17:17:20Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:6:messages.0.ts", "start": 0, "end": 20, "text": "2026-03-03T17:17:20Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:6:messages.0.text", "start": 9, "end": 23, "text": "ORD-2026-11902", "kind": "ORDER_NUMBER"}
+{"doc_id": "chats.jsonl:6:messages.0.text", "start": 46, "end": 54, "text": "10.2.3.4", "kind": "VERSION_STRING"}
+{"doc_id": "chats.jsonl:6:messages.1.ts", "start": 0, "end": 20, "text": "2026-03-14T16:06:03Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:6:messages.1.text", "start": 30, "end": 36, "text": "LX-200", "kind": "PRODUCT_CODE"}
+{"doc_id": "chats.jsonl:6:messages.2.ts", "start": 0, "end": 20, "text": "2026-03-19T08:29:03Z", "kind": "TIMESTAMP"}
+{"doc_id": "chats.jsonl:6:messages.2.text", "start": 22, "end": 30, "text": "10.2.3.4", "kind": "VERSION_STRING"}
+{"doc_id": "invoices.csv:1:invoice_no", "start": 0, "end": 13, "text": "INV-2026-0039", "kind": "INVOICE_NUMBER"}
+{"doc_id": "invoices.csv:1:amount", "start": 0, "end": 10, "text": "741.90 EUR", "kind": "AMOUNT"}
+{"doc_id": "invoices.csv:1:issue_date", "start": 0, "end": 10, "text": "2026-02-04", "kind": "ISSUE_DATE"}
+{"doc_id": "invoices.csv:2:invoice_no", "start": 0, "end": 13, "text": "INV-2026-0040", "kind": "INVOICE_NUMBER"}
+{"doc_id": "invoices.csv:2:VAT_ID", "start": 0, "end": 12, "text": "SK1069985435", "kind": "COMPANY_VAT_ID"}
+{"doc_id": "invoices.csv:2:amount", "start": 0, "end": 11, "text": "4000.50 EUR", "kind": "AMOUNT"}
+{"doc_id": "invoices.csv:2:issue_date", "start": 0, "end": 10, "text": "2026-02-06", "kind": "ISSUE_DATE"}
+{"doc_id": "invoices.csv:3:invoice_no", "start": 0, "end": 13, "text": "INV-2026-0041", "kind": "INVOICE_NUMBER"}
+{"doc_id": "invoices.csv:3:VAT_ID", "start": 0, "end": 11, "text": "GB624751079", "kind": "COMPANY_VAT_ID"}
+{"doc_id": "invoices.csv:3:amount", "start": 0, "end": 11, "text": "1728.00 EUR", "kind": "AMOUNT"}
+{"doc_id": "invoices.csv:3:issue_date", "start": 0, "end": 10, "text": "2026-02-11", "kind": "ISSUE_DATE"}
+{"doc_id": "invoices.csv:4:invoice_no", "start": 0, "end": 13, "text": "INV-2026-0042", "kind": "INVOICE_NUMBER"}
+{"doc_id": "invoices.csv:4:VAT_ID", "start": 0, "end": 12, "text": "UA8384251354", "kind": "COMPANY_VAT_ID"}
+{"doc_id": "invoices.csv:4:amount", "start": 0, "end": 11, "text": "2674.50 EUR", "kind": "AMOUNT"}
+{"doc_id": "invoices.csv:4:issue_date", "start": 0, "end": 10, "text": "2026-02-12", "kind": "ISSUE_DATE"}
+{"doc_id": "invoices.csv:5:invoice_no", "start": 0, "end": 13, "text": "INV-2026-0043", "kind": "INVOICE_NUMBER"}
+{"doc_id": "invoices.csv:5:amount", "start": 0, "end": 11, "text": "4423.00 EUR", "kind": "AMOUNT"}
+{"doc_id": "invoices.csv:5:issue_date", "start": 0, "end": 10, "text": "2026-03-03", "kind": "ISSUE_DATE"}
+{"doc_id": "invoices.csv:6:invoice_no", "start": 0, "end": 13, "text": "INV-2026-0044", "kind": "INVOICE_NUMBER"}
+{"doc_id": "invoices.csv:6:VAT_ID", "start": 0, "end": 12, "text": "SK1082449353", "kind": "COMPANY_VAT_ID"}
+{"doc_id": "invoices.csv:6:amount", "start": 0, "end": 11, "text": "4415.90 EUR", "kind": "AMOUNT"}
+{"doc_id": "invoices.csv:6:issue_date", "start": 0, "end": 10, "text": "2026-03-05", "kind": "ISSUE_DATE"}
+{"doc_id": "invoices.csv:7:invoice_no", "start": 0, "end": 13, "text": "INV-2026-0045", "kind": "INVOICE_NUMBER"}
+{"doc_id": "invoices.csv:7:amount", "start": 0, "end": 11, "text": "2233.90 EUR", "kind": "AMOUNT"}
+{"doc_id": "invoices.csv:7:issue_date", "start": 0, "end": 10, "text": "2026-03-05", "kind": "ISSUE_DATE"}
+{"doc_id": "invoices.csv:8:invoice_no", "start": 0, "end": 13, "text": "INV-2026-0046", "kind": "INVOICE_NUMBER"}
+{"doc_id": "invoices.csv:8:amount", "start": 0, "end": 11, "text": "2532.90 EUR", "kind": "AMOUNT"}
+{"doc_id": "invoices.csv:8:issue_date", "start": 0, "end": 10, "text": "2026-03-06", "kind": "ISSUE_DATE"}
+{"doc_id": "invoices.csv:9:invoice_no", "start": 0, "end": 13, "text": "INV-2026-0047", "kind": "INVOICE_NUMBER"}
+{"doc_id": "invoices.csv:9:amount", "start": 0, "end": 11, "text": "6064.00 EUR", "kind": "AMOUNT"}
+{"doc_id": "invoices.csv:9:issue_date", "start": 0, "end": 10, "text": "2026-03-10", "kind": "ISSUE_DATE"}

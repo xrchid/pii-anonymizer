@@ -1,0 +1,14 @@
+From: Наталія Шевчук <n.shevchuk@karpaty-food.example>
+To: Oleksandr Bondarenko <oleksandr.bondarenko@karpaty-food.example>
+Cc: billing@dunajsoft.example
+Date: Wed, 11 Mar 2026 08:05:00 +0200
+Subject: Рахунок INV-2026-0042
+
+Привіт, Олександре!
+
+Пересилаю рахунок від Dunaj Software a.s.. Будь ласка, підтвердь, що замовлення ORD-2026-11873 закрите. Якщо будуть питання, телефонуй мені: 050 276 48 35.
+
+Також передай копію для пана Коваленка з Tatra Logistics.
+
+З повагою,
+Наталія
