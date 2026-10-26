@@ -12,6 +12,8 @@ The task it models is the one a human reviewer does before such records are shar
 
 Runtime uses only the Python 3.10+ standard library. Tests use `unittest`.
 
+Built with AI-assisted development (Claude).
+
 ```text
 Best regards,                              Best regards,
 Ing. Peter Novák                           Ing. [PERSON_4]
