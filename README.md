@@ -8,7 +8,7 @@ The task it models is the one a human reviewer does before such records are shar
 1. find personal data and give it a type (PERSON, EMAIL, PHONE, ADDRESS, DATE_OF_BIRTH, IBAN, IP_ADDRESS, CUSTOMER_ID, ORGANIZATION);
 2. leave non-personal data alone: company names, `info@` and `support@` mailboxes, order and invoice numbers, version strings, amounts, ticket dates;
 3. group mentions of the same person (`Oleksandr Kovalenko`, `Олександр Коваленко`, `Sasha`, `O. Kovalenko`, `o.kovalenko@…`, his phone in three formats) so they are replaced consistently;
-4. measure all of this against hand-checked gold annotations and list what went wrong.
+4. measure all of this against gold annotations written by the data generator (offsets verified by tests) and list what went wrong.
 
 Runtime uses only the Python 3.10+ standard library. Tests use `unittest`.
 
