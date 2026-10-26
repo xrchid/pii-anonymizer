@@ -44,6 +44,32 @@ python -m unittest discover -s tests
 `anonymize`, `evaluate` and `report` run detection in memory when `--predictions` is omitted. The dataset generated with
 seed 42 is committed in `data/`, and the report from the run below is in [`docs/error_report.md`](docs/error_report.md).
 
+## Labelling a new dataset
+
+For a dataset in the same five-file format that has no `gold.jsonl`:
+
+```sh
+python -m piianon export-labeling --data new_data --out labels     # optionally: --prefill out/predictions.jsonl
+# edit the files in labels/, then:
+python -m piianon import-labels --data new_data --labels labels --out new_data/gold.jsonl
+python -m piianon evaluate --data new_data                          # decoys.jsonl is optional
+```
+
+`export-labeling` writes `crm_export.txt`, `invoices.txt`, `tickets.txt`, `chats.txt` and `emails/thread_XX.txt`.
+Each document is a block: a header line `### <doc_id>`, then the exact document text. Empty fields are left out,
+because they cannot contain personal data. Mark personal data inline as `[[exact text|TYPE|ENTITY_ID]]`, for example
+`[[Emily Carter|PERSON|P1]]` and `[[emily.carter@x.example|EMAIL|P1]]`. Use one entity id for every mention of a person.
+A label may span lines, for example an address written over two lines. Change nothing else.
+
+`import-labels` removes the markup and checks that what is left equals the original document character by character.
+It then computes offsets and writes `gold.jsonl` with `is_pii=true`. It reports every problem as `file:line: message`
+and writes nothing if there is a problem. Problems include an unknown type, an unclosed or nested label, an invalid
+entity id, text changed outside a label, and a missing or duplicated block.
+
+`--prefill` writes the system's predictions as labels, so the reviewer confirms, corrects or deletes them instead of
+starting from nothing. The reviewer is then likely to accept what the system proposed, so do not use prefilled
+labels to measure the system that produced them.
+
 ## Design
 
 ```text
@@ -56,7 +82,10 @@ piianon/
   resolve.py    normalization, name keys, union-find clustering with a cannot-link check
   anonymize.py  per-cluster placeholders, pseudonym key file
   evaluate.py   span P/R/F1, decoy false positives, B-cubed, markdown error report
+  labeling.py   export documents for hand-labelling, import inline labels as gold.jsonl
 ```
+
+[`docs/WALKTHROUGH.md`](docs/WALKTHROUGH.md) explains the data flow, the design decisions and the metrics in more detail.
 
 **Documents.** Each CSV cell, each JSON string value and each e-mail file is a document with an id such as
 `crm_export.csv:3:notes` or `chats.jsonl:2:messages.4.text`. Gold offsets, predictions and replacements all refer to

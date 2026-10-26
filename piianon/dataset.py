@@ -120,16 +120,22 @@ def transform_files(data_dir: Path, fn: TextFn) -> dict[str, str]:
     """Apply `fn` to every text field; return {relative path: new file content}.
 
     Files are visited in a fixed order (CRM, tickets, e-mails, chats,
-    invoices) so document order is deterministic.
+    invoices) so document order is deterministic. A missing file is skipped;
+    a folder with none of the files is an error.
     """
+    data_dir = Path(data_dir)
     outputs: dict[str, str] = {}
-    outputs[CRM_FILE] = _transform_csv(_read_text(data_dir / CRM_FILE), CRM_FILE, fn)
-    outputs[TICKETS_FILE] = _transform_jsonl(_read_text(data_dir / TICKETS_FILE), TICKETS_FILE, fn)
+    for name, transform in ((CRM_FILE, _transform_csv), (TICKETS_FILE, _transform_jsonl)):
+        if (data_dir / name).is_file():
+            outputs[name] = transform(_read_text(data_dir / name), name, fn)
     for path in email_files(data_dir):
         doc_id = email_doc_id(path.name)
         outputs[doc_id] = fn(Document(doc_id, _read_text(path), doc_id, ""))
-    outputs[CHATS_FILE] = _transform_jsonl(_read_text(data_dir / CHATS_FILE), CHATS_FILE, fn)
-    outputs[INVOICES_FILE] = _transform_csv(_read_text(data_dir / INVOICES_FILE), INVOICES_FILE, fn)
+    for name, transform in ((CHATS_FILE, _transform_jsonl), (INVOICES_FILE, _transform_csv)):
+        if (data_dir / name).is_file():
+            outputs[name] = transform(_read_text(data_dir / name), name, fn)
+    if not outputs:
+        raise FileNotFoundError(f"no dataset files found in {data_dir}")
     return outputs
 
 

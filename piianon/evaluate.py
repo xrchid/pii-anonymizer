@@ -184,6 +184,16 @@ def _pct(value: float | None) -> str:
     return "n/a" if value is None else f"{value:.3f}"
 
 
+def _non_personal_table(rows: dict[str, dict[str, int]]) -> list[str]:
+    lines = ["| Non-personal item | Count | Tagged as PII | Recognized as non-PII |", "|---|---:|---:|---:|"]
+    totals = [0, 0, 0]
+    for kind, row in rows.items():
+        lines.append(f"| {kind} | {row['count']} | {row['tagged_as_pii']} | {row['recognized_non_pii']} |")
+        totals = [totals[0] + row["count"], totals[1] + row["tagged_as_pii"], totals[2] + row["recognized_non_pii"]]
+    lines.append(f"| **total** | {totals[0]} | {totals[1]} | {totals[2]} |")
+    return lines
+
+
 def metrics_markdown(result: dict) -> str:
     """Render `evaluate` output as markdown tables."""
     lines = [
@@ -197,12 +207,10 @@ def metrics_markdown(result: dict) -> str:
             f"| {name} | {ex['gold']} | {ex['pred']} | {_pct(ex['precision'])} | {_pct(ex['recall'])} | "
             f"{_pct(ex['f1'])} | {_pct(ov['precision'])} | {_pct(ov['recall'])} | {_pct(ov['f1'])} |"
         )
-    lines += ["", "| Non-personal item | Count | Tagged as PII | Recognized as non-PII |", "|---|---:|---:|---:|"]
-    totals = [0, 0, 0]
-    for kind, row in result["non_personal"].items():
-        lines.append(f"| {kind} | {row['count']} | {row['tagged_as_pii']} | {row['recognized_non_pii']} |")
-        totals = [totals[0] + row["count"], totals[1] + row["tagged_as_pii"], totals[2] + row["recognized_non_pii"]]
-    lines.append(f"| **total** | {totals[0]} | {totals[1]} | {totals[2]} |")
+    if result["non_personal"]:
+        lines += ["", *_non_personal_table(result["non_personal"])]
+    else:
+        lines += ["", "No decoys.jsonl and no non-PII gold spans: non-personal table skipped."]
     lines += ["", "| Clustering (B-cubed) | Mentions | Precision | Recall | F1 |", "|---|---:|---:|---:|---:|"]
     labels = {
         "all_mentions": "all gold PII mentions (missed = singleton)",
