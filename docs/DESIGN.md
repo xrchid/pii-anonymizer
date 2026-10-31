@@ -1,7 +1,7 @@
-# Walkthrough
+# Design notes
 
-A study guide to this project: what happens to the data, what each module does, why it was built this way, how
-the numbers are calculated, where it fails, and questions you are likely to be asked about it.
+How the data flows, what each module does, why it was built this way, how the metrics are calculated,
+and where it fails.
 
 ## 1. The problem
 
@@ -182,84 +182,3 @@ resolution.
 - **Quasi-identifiers stay in the text:** job titles, companies, towns and dates. The output is pseudonymized, not
   anonymous.
 - **The scores are in-sample.** They were measured on synthetic data written alongside the rules.
-
-## 7. Likely interview questions
-
-**1. Why rules and not a machine-learning model?**
-Rules are transparent, need no training data, and are the right tool for identifiers with a fixed shape or a
-checksum. Their weakness is names and free-form addresses. With labelled data I would add a named-entity model for
-those, and keep the rules for structured identifiers and as a pre-annotation step for human review.
-
-**2. How do you avoid tagging non-personal data?**
-Context words (birth date, version numbers) and strict validation (IBAN checksum, phone digit counts). Role
-mailboxes and companies with a legal form are recognized and marked `is_pii=false`. An invoice row whose client is a
-company marks that IBAN and address as company data. Decoys are measured: 3 of 192 non-personal items were wrongly
-tagged.
-
-**3. Is `firstname.lastname@company.com` personal data? And `info@company.com`?**
-The first identifies an employee directly, so yes, even though it belongs to the company domain. The second names a
-function of the company and is usually shared, so usually not. It depends on context: in a one-person company,
-`info@` can identify the owner.
-
-**4. Pseudonymization or anonymization?**
-Pseudonymization (GDPR Art. 4(5)): the data can be re-identified with additional information that is kept
-separately, here the key file. Pseudonymized data is still personal data. Even without the key, my output is not
-anonymous, because of missed spans and quasi-identifiers such as job title + company + town.
-
-**5. How does it know "Sasha" and "Oleksandr Kovalenko" are the same person?**
-A nickname table maps Sasha → oleksandr. A bare given name joins a full name only if exactly one person with that
-given name appears in the same record (or, failing that, in the whole dataset). Phones are compared in E.164 form, so
-`0905013389` and `+421 905 013 389` also link.
-
-**6. How do you avoid merging two people with the same first name?**
-Every merge is checked: if the two clusters contain names with different surnames or different given names, the
-merge is refused. A bare "Oleksandr" that could be either Kovalenko or Bondarenko is left unlinked.
-
-**7. What is B-cubed and why use it?**
-Per mention: what share of my cluster is really this entity (precision), and what share of the entity is in my
-cluster (recall), averaged over mentions. It penalizes both merges and splits. Counting clusters alone would not show
-which mentions are wrong.
-
-**8. Exact versus overlap match?**
-Exact needs identical boundaries, overlap only a shared character and the same type. Overlap shows whether the item
-was found at all; the difference between the two shows boundary disagreements, which matter for consistent labelling.
-
-**9. Your F1 is about 0.98. Do you trust it?**
-No, not as an estimate for real data. I wrote both the rules and the synthetic data, so the test is in-sample, and
-changing the seed does not change the templates. A real estimate needs a held-out set written and labelled by someone
-else; the export/import labelling commands exist for that. With two annotators I would also measure agreement.
-
-**10. How do you treat a sole trader?**
-A sole trader is the business, so the business name (`Jana Horváthová – Účtovné služby`, `ФОП Мельник Дмитро`) is
-personal data. It is typed ORGANIZATION with `is_pii=true` and shares the person's cluster. A limited company's name
-is not personal data.
-
-**11. Is an IP address personal data? A date of birth alone?**
-An IP address can be. The GDPR lists online identifiers, and the CJEU held in *Breyer* (C-582/14) that a dynamic IP
-can be personal data for a website operator with legal means to identify the user. A date of birth alone usually
-does not identify anyone, but combined with a postcode and gender it often does, so it is treated as personal data
-here.
-
-**12. What is the most important failure, and how would you fix it?**
-Inflected names. Slovak and Ukrainian change name endings by grammatical case, so `пана Коваленка` does not match
-`Коваленко`. A small per-language suffix table could normalize them, but it has to be tested against new false
-links, since surname endings overlap with real surnames.
-
-**13. How do you know the gold offsets are right?**
-The generator records offsets while it builds the text, then reloads the written files and compares every span with
-the text. A test does the same. For hand labels, import strips the markup and requires the result to equal the
-original document exactly, character by character.
-
-**14. How would you use this tool as an annotator?**
-Run detection, export with `--prefill` so the system's spans appear as labels, and then:
-- confirm, correct or delete each label;
-- add what was missed, especially lower-case names and inflected forms;
-- reuse one entity id per person;
-- follow the written conventions for companies, sole traders and titles.
-
-Then import, and compare annotators or the system with `evaluate`.
-
-**15. How would it scale to a million records?**
-Detection is per document and can run in parallel. Union-find is almost linear. The slow part is the search for
-partial-name candidates over the whole dataset, which would need blocking: index full names by surname and by
-given name, and only compare within a block.

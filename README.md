@@ -87,7 +87,7 @@ piianon/
   labeling.py   export documents for hand-labelling, import inline labels as gold.jsonl
 ```
 
-[`docs/WALKTHROUGH.md`](docs/WALKTHROUGH.md) explains the data flow, the design decisions and the metrics in more detail.
+[`docs/DESIGN.md`](docs/DESIGN.md) explains the data flow, the design decisions and the metrics in more detail.
 
 **Documents.** Each CSV cell, each JSON string value and each e-mail file is a document with an id such as
 `crm_export.csv:3:notes` or `chats.jsonl:2:messages.4.text`. Gold offsets, predictions and replacements all refer to
@@ -179,7 +179,7 @@ names, 0 of 12 role mailboxes, 0 of 6 company addresses, 0 of 4 company IBANs, 0
 
 15 gold entities, 23 predicted clusters.
 
-**Read these numbers with care.** The rules and the dataset were written by the same person, and the evaluation is
+**Read these numbers with care.** The rules and the synthetic dataset were developed together, and the evaluation is
 in-sample: the hard cases were chosen first and the rules were then written to cover most of them. Seeds 1, 7, 42, 123
 and 2026 give identical scores because only identifier values change between seeds. The numbers show which of the
 listed cases are handled; they are not an estimate of accuracy on real records, where vocabulary, formats and
